@@ -1,1 +1,32 @@
 /* Empty. Add your own CSS if you like */
+p.danger{
+	color: #ee0000 !important;
+}
+
+.outer{
+	background: #696969;
+	display: table;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	padding: 0px 20px;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner{
+	background: #dedede;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	border-radius:50px 50px 50px 50px;
+}
+
+.inner p{
+	font-size: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
